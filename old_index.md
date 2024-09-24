@@ -1,8 +1,9 @@
 # Aliia Sagutdinova  
-- Munich, Germany  
-- +49 178 612 2416  
-- Email: [aliya.sagut@gmail.com](mailto:aliya.sagut@gmail.com)  
-- LinkedIn: [https://www.linkedin.com/in/aliia-sagutdinova](https://www.linkedin.com/in/aliia-sagutdinova) 
+<img src="https://github.com/aliyasagut/cv/blob/main/photo.jfif" alt="My photo" width="150">
+- Munich, Germany
+- +49 178 612 2416
+- Email: [aliya.sagut@gmail.com](mailto:aliya.sagut@gmail.com)
+- LinkedIn: [https://www.linkedin.com/in/aliia-sagutdinova](https://www.linkedin.com/in/aliia-sagutdinova)
 
 ---
 <section style="display: flex; justify-content: space-between;">
