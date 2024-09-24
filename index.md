@@ -5,11 +5,6 @@
 - LinkedIn: [https://www.linkedin.com/in/aliia-sagutdinova](https://www.linkedin.com/in/aliia-sagutdinova) 
 
 ---
-<hr>
-
-<div style="display: flex; justify-content: space-between;">
-
-<div style="width: 48%;">
 
 ## Summary  
 With four years of experience in manual testing and ISTQB Foundation and Intermediate Level certifications, I bring a wealth of knowledge and expertise to the field of software testing. A comprehensive understanding of testing methodologies and best practices enables me to identify and resolve issues efficiently. With a strong background in manual testing and a commitment to continuous improvement, I excel in delivering high-quality software products. Strong organizational skills and reliability make me a valuable team player, dedicated to ensuring the success of every project.
@@ -46,9 +41,6 @@ September 2012 – August 2013
 - Created test cases, checklists, and managed bug reports.
 
 ---
-</div>
-
-<div style="width: 48%;">
 
 ## Education  
 
@@ -78,6 +70,3 @@ AIT TR GmbH
 - Full-stack Developer Certification
  
 
-</div>
-
-</div>
