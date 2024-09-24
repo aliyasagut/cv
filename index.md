@@ -1,3 +1,12 @@
+# Aliia Sagutdinova  
+- Munich, Germany  
+- +49 178 612 2416  
+- Email: [aliya.sagut@gmail.com](mailto:aliya.sagut@gmail.com)  
+- LinkedIn: [https://www.linkedin.com/in/aliia-sagutdinova](https://www.linkedin.com/in/aliia-sagutdinova) 
+
+---
+
+
 ## Summary  
 With four years of experience in manual testing and ISTQB Foundation and Intermediate Level certifications, I bring a wealth of knowledge and expertise to the field of software testing. A comprehensive understanding of testing methodologies and best practices enables me to identify and resolve issues efficiently. With a strong background in manual testing and a commitment to continuous improvement, I excel in delivering high-quality software products. Strong organizational skills and reliability make me a valuable team player, dedicated to ensuring the success of every project.
 
