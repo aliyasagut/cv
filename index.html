@@ -27,26 +27,38 @@
             border: 1px solid #ccc;
             margin: 20px 0;
         }
+        /* Добавляем стиль для секции с контактами и Summary */
+        .header-container {
+            display: flex;
+            justify-content: space-between;
+        }
+        .contacts, .summary {
+            width: 48%;
+        }
     </style>
 </head>
 <body>
 
     <h1>Aliia Sagutdinova</h1>
-    <img src="https://raw.githubusercontent.com/aliyasagut/cv/main/photo.jfif" alt="My photo">
-    <p>Munich, Germany</p>
-    <p>+49 178 612 2416</p>
-    <p>Email: <a href="mailto:aliya.sagut@gmail.com">aliya.sagut@gmail.com</a></p>
-    <p>LinkedIn: <a href="https://www.linkedin.com/in/aliia-sagutdinova">https://www.linkedin.com/in/aliia-sagutdinova</a></p>
+    <div class="header-container">
+        <div class="contacts">
+            <img src="https://raw.githubusercontent.com/aliyasagut/cv/main/photo.jfif" alt="My photo">
+            <p>Munich, Germany</p>
+            <p>+49 178 612 2416</p>
+            <p>Email: <a href="mailto:aliya.sagut@gmail.com">aliya.sagut@gmail.com</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/aliia-sagutdinova">https://www.linkedin.com/in/aliia-sagutdinova</a></p>
+        </div>
+
+        <div class="summary">
+            <h2>Summary</h2>
+            <p>With four years of experience in manual testing and ISTQB Foundation and Intermediate Level certifications, I bring a wealth of knowledge and expertise to the field of software testing. A comprehensive understanding of testing methodologies and best practices enables me to identify and resolve issues efficiently. With a strong background in manual testing and a commitment to continuous improvement, I excel in delivering high-quality software products. Strong organizational skills and reliability make me a valuable team player, dedicated to ensuring the success of every project.</p>
+        </div>
+    </div>
 
     <hr>
 
     <div class="container">
         <div class="column">
-            <h2>Summary</h2>
-            <p>With four years of experience in manual testing and ISTQB Foundation and Intermediate Level certifications, I bring a wealth of knowledge and expertise to the field of software testing. A comprehensive understanding of testing methodologies and best practices enables me to identify and resolve issues efficiently. With a strong background in manual testing and a commitment to continuous improvement, I excel in delivering high-quality software products. Strong organizational skills and reliability make me a valuable team player, dedicated to ensuring the success of every project.</p>
-
-            <hr>
-
             <h2>Work Experience</h2>
 
             <h3>QA Manual and Automation</h3>
