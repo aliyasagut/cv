@@ -8,6 +8,7 @@
         body {
             font-family: Arial, sans-serif;
             margin: 20px;
+            line-height: 1.4; /* Общий стиль для текста */
         }
         .container {
             display: flex;
@@ -19,6 +20,7 @@
         img {
             border-radius: 50%;
             width: 150px;
+            height: 150px;
         }
         h1, h2, h3 {
             margin-top: 0;
@@ -27,41 +29,32 @@
             border: 1px solid #ccc;
             margin: 20px 0;
         }
-        /* Выровняем секции с контактами и резюме */
+        /* Стиль для секции с контактами и Summary */
         .header-container {
             display: flex;
             justify-content: space-between;
             align-items: flex-start;
-            margin-top: 20px; /* Добавляем отступ сверху */
+            margin-top: 10px; /* Добавляем отступ сверху, чтобы блоки были ниже фото */
         }
-        /* Стили для блока контактов */
         .contacts {
-            display: flex;
-            flex-direction: column;
-            justify-content: flex-start;
             width: 48%;
+            line-height: 1.6; /* Уменьшаем межстрочный интервал */
         }
-        .contacts p {
-            margin: 5px 0; /* Уменьшаем отступ между строками в контактах */
-            line-height: 1.4; /* Уменьшаем межстрочный интервал */
-        }
-        /* Стили для блока резюме */
         .summary {
             width: 48%;
-            margin-top: 0;
         }
-        .contacts h2 {
-            margin-top: 10px;
+        .contacts h2, .summary h2 {
+            margin-bottom: 5px; /* Делаем отступы между заголовками и контентом */
         }
     </style>
 </head>
 <body>
 
     <h1>Aliia Sagutdinova</h1>
+    <img src="https://raw.githubusercontent.com/aliyasagut/cv/main/photo.jfif" alt="My photo">
 
     <div class="header-container">
         <div class="contacts">
-            <img src="https://raw.githubusercontent.com/aliyasagut/cv/main/photo.jfif" alt="My photo">
             <h2>Contacts</h2>
             <p>Munich, Germany</p>
             <p>+49 178 612 2416</p>
