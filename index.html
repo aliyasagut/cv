@@ -27,22 +27,31 @@
             border: 1px solid #ccc;
             margin: 20px 0;
         }
-        /* Добавляем стиль для секции с контактами и Summary */
+        /* Стиль для секции с контактами и Summary */
         .header-container {
             display: flex;
             justify-content: space-between;
+            align-items: flex-start;
         }
-        .contacts, .summary {
+        .contacts {
             width: 48%;
+        }
+        .summary {
+            width: 48%;
+        }
+        .contacts h2 {
+            margin-top: 10px;
         }
     </style>
 </head>
 <body>
 
     <h1>Aliia Sagutdinova</h1>
+
     <div class="header-container">
         <div class="contacts">
             <img src="https://raw.githubusercontent.com/aliyasagut/cv/main/photo.jfif" alt="My photo">
+            <h2>Contacts</h2>
             <p>Munich, Germany</p>
             <p>+49 178 612 2416</p>
             <p>Email: <a href="mailto:aliya.sagut@gmail.com">aliya.sagut@gmail.com</a></p>
