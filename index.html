@@ -19,7 +19,6 @@
         img {
             border-radius: 50%;
             width: 150px;
-            height: 150px; /* Добавляем фиксированную высоту */
         }
         h1, h2, h3 {
             margin-top: 0;
@@ -28,21 +27,28 @@
             border: 1px solid #ccc;
             margin: 20px 0;
         }
-        /* Стиль для секции с контактами и Summary */
+        /* Выровняем секции с контактами и резюме */
         .header-container {
             display: flex;
             justify-content: space-between;
-            align-items: flex-start; /* Гарантируем, что блоки выровнены по верху */
+            align-items: flex-start;
+            margin-top: 20px; /* Добавляем отступ сверху */
         }
+        /* Стили для блока контактов */
         .contacts {
             display: flex;
             flex-direction: column;
-            align-items: flex-start;
+            justify-content: flex-start;
             width: 48%;
         }
+        .contacts p {
+            margin: 5px 0; /* Уменьшаем отступ между строками в контактах */
+            line-height: 1.4; /* Уменьшаем межстрочный интервал */
+        }
+        /* Стили для блока резюме */
         .summary {
             width: 48%;
-            margin-top: 0; /* Убираем фиксированный отступ */
+            margin-top: 0;
         }
         .contacts h2 {
             margin-top: 10px;
