@@ -8,8 +8,8 @@
         body {
             font-family: Arial, sans-serif;
             margin: 20px;
-            line-height: 1.4; /* Общий стиль для текста */
-            font-size: 12px;
+            line-height: 1.4;
+            font-size: 14px;
         }
         .container {
             display: flex;
@@ -27,127 +27,120 @@
             margin-top: 0;
         }
         hr {
-            border: 1px solid #ccc;
-            margin: 20px 0;
-        }
-        /* Стиль для секции с контактами и Summary */
-        .header-container {
-            display: flex;
-            justify-content: space-between;
-            align-items: flex-start;
-            margin-top: 10px; /* Добавляем отступ сверху, чтобы блоки были ниже фото */
+            border: none; /* Убираем полосы между блоками */
         }
         .contacts {
-            width: 48%;
-            line-height: 1.4; /* Уменьшаем межстрочный интервал */
+            margin-bottom: 20px;
         }
-        .summary {
-            width: 48%;
+        .summary, .certifications, .languages, .skills, .education {
+            margin-bottom: 20px;
         }
-        .contacts h2, .summary h2 {
-            margin-bottom: 5px; /* Делаем отступы между заголовками и контентом */
+        /* Стили для секций */
+        .contacts h2, .summary h2, .certifications h2, .languages h2, .skills h2, .education h2 {
+            margin-bottom: 10px;
         }
     </style>
 </head>
 <body>
 
     <h1>Aliia Sagutdinova</h1>
-    <img src="https://raw.githubusercontent.com/aliyasagut/cv/main/photo.jfif" alt="My photo">
-
-    <div class="header-container">
-        <div class="contacts">
-            <h2>Contacts</h2>
-            <p>Munich, Germany</p>
-            <p>+49 178 612 2416</p>
-            <p>Email: <a href="mailto:aliya.sagut@gmail.com">aliya.sagut@gmail.com</a></p>
-            <p>LinkedIn: <a href="https://www.linkedin.com/in/aliia-sagutdinova">https://www.linkedin.com/in/aliia-sagutdinova</a></p>
-        </div>
-
-        <div class="summary">
-            <h2>Summary</h2>
-            <p>With four years of experience in manual testing and ISTQB Foundation and Intermediate Level certifications, I bring a wealth of knowledge and expertise to the field of software testing. A comprehensive understanding of testing methodologies and best practices enables me to identify and resolve issues efficiently. With a strong background in manual testing and a commitment to continuous improvement, I excel in delivering high-quality software products. Strong organizational skills and reliability make me a valuable team player, dedicated to ensuring the success of every project.</p>
-        </div>
-    </div>
-
-    <hr>
 
     <div class="container">
+        <!-- Левый столбец: Фото, Контакты и Опыт работы -->
         <div class="column">
-            <h2>Work Experience</h2>
+            <img src="https://raw.githubusercontent.com/aliyasagut/cv/main/photo.jfif" alt="My photo">
 
-            <h3>QA Manual and Automation</h3>
-            <p><strong>AIT-TR (Remote)</strong></p>
-            <p>July 2023 – April 2024</p>
-            <ul>
-                <li>Created and executed comprehensive test plans, test cases, and test scripts for various applications.</li>
-                <li>Conducted functional, regression, and acceptance testing to ensure software quality.</li>
-                <li>Identified, documented, and tracked defects using JIRA.</li>
-                <li>Studied and practiced writing automated tests with Java, Selenium, and Cucumber.</li>
-                <li>Conducted API testing using Postman and Rest Assured Java.</li>
-                <li>Utilized testing methodologies such as Boundary Value Analysis, Equivalent Class Testing, Decision Table Testing, State Transition Testing, and Pairwise Testing.</li>
-            </ul>
+            <div class="contacts">
+                <h2>Contacts</h2>
+                <p>Munich, Germany</p>
+                <p>+49 178 612 2416</p>
+                <p>Email: <a href="mailto:aliya.sagut@gmail.com">aliya.sagut@gmail.com</a></p>
+                <p>LinkedIn: <a href="https://www.linkedin.com/in/aliia-sagutdinova">https://www.linkedin.com/in/aliia-sagutdinova</a></p>
+            </div>
 
-            <h3>Software Test Manager</h3>
-            <p><strong>GDC (Fujitsu Preferred Supplier of Services)</strong></p>
-            <p>September 2013 – September 2015</p>
-            <ul>
-                <li>Created project documentation including test cases, test plans, mind maps, and diagrams.</li>
-                <li>Communicated with product owners and the team to understand business logic and technical details.</li>
-                <li>Planned and conducted regression and acceptance testing.</li>
-                <li>Created test results and bug reports.</li>
-            </ul>
+            <div class="experience">
+                <h2>Work Experience</h2>
 
-            <h3>Software Tester</h3>
-            <p><strong>StartUp "RealSpeaker"</strong></p>
-            <p>September 2012 – August 2013</p>
-            <ul>
-                <li>Tested desktop applications, including a speech recognition system (Speech-to-Text).</li>
-                <li>Conducted system, regression, and load testing.</li>
-                <li>Created test cases, checklists, and managed bug reports.</li>
-            </ul>
+                <h3>QA Manual and Automation</h3>
+                <p><strong>AIT-TR (Remote)</strong></p>
+                <p>July 2023 – April 2024</p>
+                <ul>
+                    <li>Created and executed comprehensive test plans, test cases, and test scripts for various applications.</li>
+                    <li>Conducted functional, regression, and acceptance testing to ensure software quality.</li>
+                    <li>Identified, documented, and tracked defects using JIRA.</li>
+                    <li>Studied and practiced writing automated tests with Java, Selenium, and Cucumber.</li>
+                    <li>Conducted API testing using Postman and Rest Assured Java.</li>
+                    <li>Utilized testing methodologies such as Boundary Value Analysis, Equivalent Class Testing, Decision Table Testing, State Transition Testing, and Pairwise Testing.</li>
+                </ul>
 
+                <h3>Software Test Manager</h3>
+                <p><strong>GDC (Fujitsu Preferred Supplier of Services)</strong></p>
+                <p>September 2013 – September 2015</p>
+                <ul>
+                    <li>Created project documentation including test cases, test plans, mind maps, and diagrams.</li>
+                    <li>Communicated with product owners and the team to understand business logic and technical details.</li>
+                    <li>Planned and conducted regression and acceptance testing.</li>
+                    <li>Created test results and bug reports.</li>
+                </ul>
+
+                <h3>Software Tester</h3>
+                <p><strong>StartUp "RealSpeaker"</strong></p>
+                <p>September 2012 – August 2013</p>
+                <ul>
+                    <li>Tested desktop applications, including a speech recognition system (Speech-to-Text).</li>
+                    <li>Conducted system, regression, and load testing.</li>
+                    <li>Created test cases, checklists, and managed bug reports.</li>
+                </ul>
+            </div>
         </div>
 
+        <!-- Правый столбец: Summary, Сертификаты, Языки, Навыки и Образование -->
         <div class="column">
-            <h2>Education</h2>
+            <div class="summary">
+                <h2>Summary</h2>
+                <p>With four years of experience in manual testing and ISTQB Foundation and Intermediate Level certifications, I bring a wealth of knowledge and expertise to the field of software testing. A comprehensive understanding of testing methodologies and best practices enables me to identify and resolve issues efficiently. With a strong background in manual testing and a commitment to continuous improvement, I excel in delivering high-quality software products. Strong organizational skills and reliability make me a valuable team player, dedicated to ensuring the success of every project.</p>
+            </div>
 
-            <p><strong>Full-stack Software Developer / Quality Assurance Engineer</strong></p>
-            <p>AIT TR GmbH</p>
-            <p>2023 – 2024</p>
-            
-            <p><strong>Bachelor of Social Work</strong></p>
-            <p>Kazan National Research Technological University, Kazan</p>
-            <p>2008 – 2012</p>
+            <div class="certifications">
+                <h2>Certifications</h2>
+                <ul>
+                    <li>ISTQB-BCS Certified Tester Foundation Level (CTFL)</li>
+                    <li>Intermediate Certificate in Software Testing</li>
+                    <li>Full-stack Developer Certification</li>
+                </ul>
+            </div>
 
-            <hr>
+            <div class="languages">
+                <h2>Languages</h2>
+                <ul>
+                    <li>German B2</li>
+                    <li>English B2</li>
+                    <li>Russian C2</li>
+                </ul>
+            </div>
 
-            <h2>Skills</h2>
-            <ul>
-                <li><strong>Programming Languages & Technologies:</strong> CSS, HTML, Java, SQL, MySQL, PostgreSQL, Postman, Selenium</li>
-                <li><strong>Testing Skills:</strong> Software Testing, Test Design, Test Plans, Test Cases, Test Specifications, Bug Reports, JIRA, TestLink</li>
-                <li><strong>Testing Types:</strong> Regression Testing, Acceptance Testing, Functional Testing</li>
-                <li><strong>Methodologies:</strong> Scrum, Agile</li>
-                <li><strong>Automation Tools:</strong> Selenium, Cucumber, Rest Assured Java</li>
-                <li><strong>API Testing:</strong> Postman, Rest Assured</li>
-            </ul>
+            <div class="skills">
+                <h2>Skills</h2>
+                <ul>
+                    <li><strong>Programming Languages & Technologies:</strong> CSS, HTML, Java, SQL, MySQL, PostgreSQL, Postman, Selenium</li>
+                    <li><strong>Testing Skills:</strong> Software Testing, Test Design, Test Plans, Test Cases, Test Specifications, Bug Reports, JIRA, TestLink</li>
+                    <li><strong>Testing Types:</strong> Regression Testing, Acceptance Testing, Functional Testing</li>
+                    <li><strong>Methodologies:</strong> Scrum, Agile</li>
+                    <li><strong>Automation Tools:</strong> Selenium, Cucumber, Rest Assured Java</li>
+                    <li><strong>API Testing:</strong> Postman, Rest Assured</li>
+                </ul>
+            </div>
 
-            <hr>
-
-            <h2>Certifications</h2>
-            <ul>
-                <li>ISTQB-BCS Certified Tester Foundation Level (CTFL)</li>
-                <li>Intermediate Certificate in Software Testing</li>
-                <li>Full-stack Developer Certification</li>
-            </ul>
-
-            <hr>
-
-            <h2>Languages</h2>
-            <ul>
-                <li>German B2</li>
-                <li>English B2</li>
-                <li>Russian C2</li>
-            </ul>
+            <div class="education">
+                <h2>Education</h2>
+                <p><strong>Full-stack Software Developer / Quality Assurance Engineer</strong></p>
+                <p>AIT TR GmbH</p>
+                <p>2023 – 2024</p>
+                
+                <p><strong>Bachelor of Social Work</strong></p>
+                <p>Kazan National Research Technological University, Kazan</p>
+                <p>2008 – 2012</p>
+            </div>
         </div>
     </div>
 
