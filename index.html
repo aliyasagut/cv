@@ -8,15 +8,15 @@
         body {
             font-family: Arial, sans-serif;
             margin: 20px;
-            line-height: 1.6;
-            font-size: 14px; /* Увеличен шрифт */
+            line-height: 1.4;
+            Lpx;
         }
         .container {
             display: flex;
             justify-content: space-between;
         }
         .column {
-            width: 48%; /* Равное распределение колонок */
+            width: 48%;
         }
         img {
             border-radius: 50%;
@@ -26,15 +26,18 @@
         h1, h2, h3 {
             margin-top: 0;
         }
-        ul {
-            padding-left: 20px;
+        hr {
+            border: none; /* Убираем полосы между блоками */
         }
-        .contacts, .summary, .certifications, .languages, .education, .hobbies, .skills-section {
+        .contacts {
             margin-bottom: 20px;
         }
-        .footer {
-            margin-top: 40px;
-            text-align: center;
+        .summary, .certifications, .languages, .skills, .education {
+            margin-bottom: 20px;
+        }
+        /* Стили для секций */
+        .contacts h2, .summary h2, .certifications h2, .languages h2, .skills h2, .education h2 {
+            margin-bottom: 10px;
         }
     </style>
 </head>
