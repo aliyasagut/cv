@@ -12,11 +12,8 @@
             font-size: 14px;
         }
         .container {
-            display: flex;
-            justify-content: space-between;
-        }
-        .column {
-            width: 48%;
+            max-width: 800px;
+            margin: 0 auto;
         }
         img {
             border-radius: 50%;
@@ -27,205 +24,148 @@
             margin-top: 0;
         }
         hr {
-            border: none; /* Убираем полосы между блоками */
+            margin: 20px 0;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .flex {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
         }
         .contacts {
-            margin-bottom: 20px;
-        }
-        .summary, .certifications, .languages, .skills, .education {
-            margin-bottom: 20px;
-        }
-        /* Стили для секций */
-        .contacts h2, .summary h2, .certifications h2, .languages h2, .skills h2, .education h2 {
-            margin-bottom: 10px;
+            margin-left: 20px;
         }
     </style>
 </head>
 <body>
 
-    <h1>Aliia Sagutdinova</h1>
-
-    <div class="container">
-        <!-- Левый столбец: Фото и Опыт работы -->
-        <div class="column">
-            <img src="https://raw.githubusercontent.com/aliyasagut/cv/main/photo.jfif" alt="My photo">
-
-            <div class="experience">
-                <h2>Work Experience</h2>
-
-                <h3>Since May 2024</h3>
-                <ul>
-                    <li>Career training, active job searching,</li>
-                    <li>Udamy and Coursera Courses,</li>
-                    <li>Focused on professional development and skill enhancement through online courses.</li>
-                </ul>
-
-                <h3>July 2023 – April 2024</h3>
-                <p><strong>QA Manual and Automation</strong></p>
-                <p>AIT-TR (Remote)</p>
-                <ul>
-                    <li>Test plans, test cases,</li>
-                    <li>Functional, regression, and acceptance testing,</li>
-                    <li>Defects tracking using JIRA,</li>
-                    <li>Automated tests with Java, Selenium, and Cucumber,</li>
-                    <li>API testing using Postman and Rest Assured Java,</li>
-                    <li>Testing methodologies: Mind Map, Boundary Value Analysis, Equivalent Class Testing, Decision Table Testing, State Transition Testing, Pairwise Testing.</li>
-                </ul>
-
-                <h3>October 2015 – June 2023</h3>
-                <p><strong>Family time</strong></p>
-                <ul>
-                    <li>Relocation to Germany: integration, learning German,</li>
-                    <li>Maternity leave.</li>
-                </ul>
-
-                <h3>September 2013 – September 2015</h3>
-                <p><strong>Software Test Manager</strong></p>
-                <p>GDC (Fujitsu Preferred Supplier of Services), Kazan, Russia</p>
-                <ul>
-                    <li>Project documentation including test cases, test plans, mind maps, check lists and diagrams,</li>
-                    <li>Communication with product owners and the team to understand business logic and technical details,</li>
-                    <li>Regression and acceptance testing.</li>
-                    <li>Defect tracking and bug reports.</li>
-                </ul>
-
-                <h3>September 2012 – August 2013</h3>
-                <p><strong>Software Tester</strong></p>
-                <p>StartUp "RealSpeaker", Kazan, Russia</p>
-                <ul>
-                    <li>Tested desktop applications, including a speech recognition system (Speech-to-Text).</li>
-                    <li>Conducted system, regression, and load testing.</li>
-                    <li>Created test cases, checklists, and managed bug reports.</li>
-                </ul>
-            </div>
+<div class="container">
+    <header class="flex">
+        <img src="https://raw.githubusercontent.com/aliyasagut/cv/main/photo.jfif" alt="My photo">
+        <div class="contacts">
+            <h1>Aliia Sagutdinova</h1>
+            <p>Munich, Germany</p>
+            <p>+49 178 612 2416</p>
+            <p>Email: <a href="mailto:aliya.sagut@gmail.com">aliya.sagut@gmail.com</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/aliia-sagutdinova">https://www.linkedin.com/in/aliia-sagutdinova</a></p>
+            <p>Date of Birth: 23.01.1991</p>
+            <p>Married, two children</p>
         </div>
+    </header>
 
-        <!-- Правый столбец: Контакты, Summary, Сертификаты, Языки, Навыки и Образование -->
-        <div class="column">
-            <div class="contacts">
-                <h2>Contacts and Info</h2>
-                <p>Munich, Germany</p>
-                <p>+49 178 612 2416</p>
-                <p>Date of Birth: 23.01.1991</p>
-                <p>Married, two children</p>
-                <p>Email: <a href="mailto:aliya.sagut@gmail.com">aliya.sagut@gmail.com</a></p>
-                <p>LinkedIn: <a href="https://www.linkedin.com/in/aliia-sagutdinova">https://www.linkedin.com/in/aliia-sagutdinova</a></p>
-            </div>
+    <hr>
 
-            <div class="summary">
-                <h2>Summary</h2>
-                <p>With four years of experience in manual testing and ISTQB certifications, I bring strong knowledge in software testing. My expertise in testing methodologies and best practices enables me to efficiently identify and resolve issues. I am committed to delivering high-quality products and continuously improving processes, making me a reliable and effective team player.</p>
-            </div>
+    <section class="summary section">
+        <h2>Summary</h2>
+        <p>With four years of experience in manual testing and ISTQB certifications, I bring strong knowledge in software testing. My expertise in testing methodologies and best practices enables me to efficiently identify and resolve issues. I am committed to delivering high-quality products and continuously improving processes, making me a reliable and effective team player.</p>
+    </section>
 
-            <div class="certifications">
-                <h2>Certifications and Courses</h2>
-                <ul>
-                    <li>ISTQB-BCS Certified Tester Foundation Level (CTFL)</li>
-                    <li>Intermediate Certificate in Software Testing</li>
-                    <li>Full-stack Developer Certification</li>
-                    <li>Telc B2 Deutsch</li>
-                    <li>Test Design Techniques</li>
-                    <li>Effective Time Management and Estimation Techniques</li>
-                    <li>Professional Business Communication: Writing with Impact</li>
-                </ul>
-            </div>
+    <section class="experience section">
+        <h2>Work Experience</h2>
 
-            <div class="languages">
-                <h2>Languages</h2>
-                <ul>
-                    <li>German B2</li>
-                    <li>English B2</li>
-                    <li>Russian C2</li>
-                </ul>
-            </div>
+        <h3>Since May 2024</h3>
+        <ul>
+            <li>Career training, active job searching,</li>
+            <li>Udamy and Coursera Courses,</li>
+            <li>Focused on professional development and skill enhancement through online courses.</li>
+        </ul>
 
-            <div class="education">
-                <h2>Education</h2>
-                <ul>
-                    <li><strong>Additional education (Weiterbildung)</strong>,<br>
-                        June 2023 – April 2024,<br>
-                        Full-stack Software Developer / Quality Assurance Engineer,<br>
-                        AIT TR GmbH.</li>
-                    <li><strong>University</strong>,<br>
-                        September 2008 – June 2012,<br>
-                        Bachelor of Social Work - Kazan National Research Technological University, Kazan, Russia.</li>
-                    <li><strong>School</strong>,<br>
-                        September 1997 – June 2008,<br>
-                        Gymnasium № 1, Sterlitamak, Russia.</li>
-                </ul>
-            </div>
+        <h3>July 2023 – April 2024</h3>
+        <p><strong>QA Manual and Automation</strong></p>
+        <p>AIT-TR (Remote)</p>
+        <ul>
+            <li>Test plans, test cases,</li>
+            <li>Functional, regression, and acceptance testing,</li>
+            <li>Defects tracking using JIRA,</li>
+            <li>Automated tests with Java, Selenium, and Cucumber,</li>
+            <li>API testing using Postman and Rest Assured Java,</li>
+            <li>Testing methodologies: Mind Map, Boundary Value Analysis, Equivalent Class Testing, Decision Table Testing, State Transition Testing, Pairwise Testing.</li>
+        </ul>
 
-            <div class="hobbies">
-                <h2>Hobbies</h2>
-                <ul>
-                    <li>Administrator of the Tatar Community in Munich</li>
-                    <li>Volunteer at a community organization, organizing events and meetings</li>
-                </ul>
-            </div>
-        </div>
-    </div>
+        <h3>October 2015 – June 2023</h3>
+        <p><strong>Family time</strong></p>
+        <ul>
+            <li>Relocation to Germany: integration, learning German,</li>
+            <li>Maternity leave.</li>
+        </ul>
 
-    <h1 style="page-break-before: always;">Skills</h1>
+        <h3>September 2013 – September 2015</h3>
+        <p><strong>Software Test Manager</strong></p>
+        <p>GDC (Fujitsu Preferred Supplier of Services), Kazan, Russia</p>
+        <ul>
+            <li>Project documentation including test cases, test plans, mind maps, check lists and diagrams,</li>
+            <li>Communication with product owners and the team to understand business logic and technical details,</li>
+            <li>Regression and acceptance testing.</li>
+            <li>Defect tracking and bug reports.</li>
+        </ul>
 
-    <div class="skills-section">
+        <h3>September 2012 – August 2013</h3>
+        <p><strong>Software Tester</strong></p>
+        <p>StartUp "RealSpeaker", Kazan, Russia</p>
+        <ul>
+            <li>Tested desktop applications, including a speech recognition system (Speech-to-Text).</li>
+            <li>Conducted system, regression, and load testing.</li>
+            <li>Created test cases, checklists, and managed bug reports.</li>
+        </ul>
+    </section>
 
-        <div class="skills-section">
-            <h2>Programming & Technologies</h2>
-            <ul>
-                <li>Programming: CSS, HTML, Java, SQL</li>
-                <li>Databases: MySQL, PostgreSQL</li>
-                <li>Tools: Postman, Selenium, Rest Assured, Git</li>
-            </ul>
-        </div>
+    <section class="certifications section">
+        <h2>Certifications and Courses</h2>
+        <ul>
+            <li>ISTQB-BCS Certified Tester Foundation Level (CTFL)</li>
+            <li>Intermediate Certificate in Software Testing</li>
+            <li>Full-stack Developer Certification</li>
+            <li>Telc B2 Deutsch</li>
+            <li>Test Design Techniques</li>
+            <li>Effective Time Management and Estimation Techniques</li>
+            <li>Professional Business Communication: Writing with Impact</li>
+        </ul>
+    </section>
 
-        <div class="skills-section">
-            <h2>Testing Skills</h2>
-            <ul>
-                <li>Test Design and Execution</li>
-                <li>Regression, Functional, and Acceptance Testing</li>
-                <li>API Functional and Load Testing</li>
-            </ul>
-        </div>
+    <section class="languages section">
+        <h2>Languages</h2>
+        <ul>
+            <li>German B2</li>
+            <li>English B2</li>
+            <li>Russian C2</li>
+        </ul>
+    </section>
 
-        <div class="skills-section">
-            <h2>Documentation & Management</h2>
-            <ul>
-                <li>Creating Test Plans, Test Cases, and Bug Reports</li>
-                <li>Using Mind Maps, Checklists, and Diagrams</li>
-                <li>Task and Defect Management: JIRA, TestLink, Confluence</li>
-            </ul>
-        </div>
+    <section class="skills section">
+        <h2>Skills</h2>
+        <ul>
+            <li>Programming: CSS, HTML, Java, SQL</li>
+            <li>Tools: Postman, Selenium, Rest Assured, Git</li>
+            <li>Databases: MySQL, PostgreSQL</li>
+            <li>Test Design and Execution</li>
+            <li>Regression, Functional, and Acceptance Testing</li>
+            <li>Creating Test Plans, Test Cases, and Bug Reports</li>
+        </ul>
+    </section>
 
-        <div class="skills-section">
-            <h2>Testing Methodologies</h2>
-            <ul>
-                <li>Boundary Value Analysis</li>
-                <li>Equivalent Class Testing</li>
-                <li>Decision Table Testing</li>
-                <li>State Transition Testing</li>
-                <li>Pairwise Testing</li>
-            </ul>
-        </div>
+    <section class="education section">
+        <h2>Education</h2>
+        <ul>
+            <li><strong>Additional education (Weiterbildung)</strong>,<br>
+                June 2023 – April 2024,<br>
+                Full-stack Software Developer / Quality Assurance Engineer,<br>
+                AIT TR GmbH.</li>
+            <li><strong>University</strong>,<br>
+                September 2008 – June 2012,<br>
+                Bachelor of Social Work - Kazan National Research Technological University, Kazan, Russia.</li>
+        </ul>
+    </section>
 
-        <div class="skills-section">
-            <h2>Automation Tools</h2>
-            <ul>
-                <li>Selenium, Cucumber, Rest Assured (Java)</li>
-            </ul>
-        </div>
-
-        <div class="skills-section">
-            <h2>Soft Skills</h2>
-            <ul>
-                <li>Effective Communication with Product Owners and Teams</li>
-                <li>Collaboration in Agile Environments (Scrum, Kanban)</li>
-            </ul>
-        </div>
-    </div>
-
-    <div class="footer">
-        Munich, January 2025
-    </div>
+    <section class="hobbies section">
+        <h2>Hobbies</h2>
+        <ul>
+            <li>Administrator of the Tatar Community in Munich</li>
+            <li>Volunteer at a community organization, organizing events and meetings</li>
+        </ul>
+    </section>
+</div>
 
 </body>
 </html>
